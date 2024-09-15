@@ -1,0 +1,90 @@
+.App{
+    &__logo{
+        display: flex;
+        justify-content: center;
+        max-height: 20vh;
+        filter: contrast(0) brightness(100)  drop-shadow(1px 1px 16px $white-color) ;
+        &-img{
+            height: 100%;
+        }
+        &2{
+            background-color: $lightblue-color;
+            max-height: 10vh;
+            
+            &-img{
+                width: 18%;
+                filter: contrast(0) brightness(100);
+            }
+        }
+    }
+    &__dog{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+        &_img{
+            width: 20vh;
+            height: 30vh;
+
+            &-collie{    
+                position: relative;
+                z-index: 2;
+                max-width: 100%;
+                margin-top: 6vh;            
+            &Tail{
+                position: absolute;
+                max-height: 31vh;
+                margin-top: 6vh;
+            }
+            }
+            
+            &-doberman{ 
+                position: relative;
+                max-width: 100%;
+                max-height: 100%;}
+        
+        }
+        &-text{
+            z-index: 1;
+            margin-top: 5vh;
+            margin-left: -15px;
+            position: absolute;
+            font-size: 92px;
+            font-family: LeagueSpartan;
+            letter-spacing: -5px;
+            color: $white-color;
+        }
+    }
+    &__canva-text{
+        display: flex;
+        justify-content: center;
+        font-size: 35px;
+        font-family: sans-serif;
+        color: $white-color;
+        cursor: pointer;
+        text-decoration: underline;
+
+    }
+}
+.Spam-contenedor{
+    display: flex;
+    position: absolute;
+    /* height: 100%; */
+    width: 100%;
+    justify-content: center;
+}
+.SpamBox1{
+    width: 620px;
+    height: 983.3px;
+    rotate: 25.4deg;
+    position: fixed;
+    transform: translate(85%, -30%);
+    background-color: #0097b2;
+}
+.SpamBox2{
+    width: 344.6px;
+    height: 888.7px;
+    rotate: 63.4deg;
+    position: fixed;
+    transform: translate(-200%, 37%);
+    background-color: #0097b2;
+}

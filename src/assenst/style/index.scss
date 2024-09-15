@@ -1,0 +1,26 @@
+/* Globals Styles */
+@import './_typography.scss';
+@import './_globalColors.scss';
+
+/* Components */
+@import './components/App.scss';
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  
+  main,
+  .App {
+    display: flex;
+    flex-direction: column;
+    background-color: $lightblue-color;
+    height: 100vh;  
+  }
+  
